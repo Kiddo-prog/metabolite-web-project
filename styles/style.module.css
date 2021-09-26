@@ -1,0 +1,54 @@
+/* Homepage */
+
+/*********************** Quotes **********************/
+.quoteSCnt {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../public/assets/bg7.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 6em;
+  margin: 3em 0 5em 0;
+}
+.quoteSCnt .quoteHeading {
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.quoteSCnt .quoteHeading::before {
+  content: "";
+  background: #fff;
+  display: inline-block;
+  height: 1px;
+  width: 25px;
+  margin: 5px 10px;
+}
+.quoteSCnt .quoteHeading::after {
+  content: "";
+  background: #fff;
+  display: inline-block;
+  height: 1px;
+  width: 25px;
+  margin: 5px 10px;
+}
+.quoteSCnt .quoteCnt {
+  margin-top: 5em;
+}
+.quoteSCnt .quoteNm {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.quoteSCnt .quoteP {
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+/************** Footer ***************/

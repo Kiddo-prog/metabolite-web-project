@@ -1,0 +1,51 @@
+/******************** Navigation *******************/
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 1rem;
+}
+.navBar .logo {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 21.5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navBar .navLink {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.navBar .navLink .link {
+  display: block;
+  margin-right: 1.5rem;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  transition: 0.5s ease-in-out;
+  font-size: 14.5px;
+  border: none;
+  outline: none;
+}
+.navBar .navLink .link:hover::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  width: 35px;
+  height: 1.67px;
+  display: block;
+  margin: 0.2em auto;
+}
+.navBar .navLink .active::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  width: 35px;
+  height: 1.67px;
+  display: block;
+  margin: 0.2em auto;
+}
+@media screen and (max-width: 781px) {
+  .navBar .navLink {
+    display: none;
+  }
+}

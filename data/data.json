@@ -1,0 +1,236 @@
+{
+    "Header": {
+        "title": "We are a Landing Page",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    },
+    "About": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Topics": [
+        {
+            "icon": "fa fa-wordpress",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "fa fa-language",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+    ],
+    "PunchLines": [
+        {
+            "name": "Albert Einstein",
+            "author": "Imagination is greater than knowledge"
+        }
+    ],
+    "Events": [
+        {
+            "img": "img/testimonials/01.jpg",
+            "title": "ULSSA FOOTBALL COMPETITION",
+            "details": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\""
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "title": "ULSSA FOOTBALL COMPETITION",
+            "details": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\""
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "title": "Friendly match betweeen UNILAG AND MFM",
+            "details": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\""
+        }
+    ],
+    "Testimonials": [
+        {
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Teachers": [
+        {
+            "img": "img/team/01.jpg",
+            "position": "Head of Department",
+            "name": "Prof. Akande I.S",
+            "field": "Biochemical Toxicology & Public Health"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "position": "Professor",
+            "name": "Prof. (Mrs) Magbagbeola O.A",
+            "field": "Endrocrine Biochemistry/Reproductive Health/Nutritional Biochemistry."
+        },
+        {
+            "img": "img/team/03.jpg",
+            "position": "Professor",
+            "name": "Prof. Ebuechi O.A.T",
+            "field": "Neuro Biochemistry/Nutritional Biochemistry."
+        },
+        {
+            "img": "img/team/04.jpg",
+            "position": "Lecturer I",
+            "name": "Dr. Oluwole-Banjo A.K",
+            "field": "Nutritional Biochemistry."
+        },
+        {
+            "img": "img/team/02.jpg",
+            "position": "Senior Lecturer",
+            "name": "Dr. Samuel T.A",
+            "field": "Endrocrinology/Nutraceutic, Phytochemicals and Nutrigenomics"
+        },
+        {
+            "img": "img/team/03.jpg",
+            "position": "Senior Lecturer",
+            "name": "Dr. Adisa R.A",
+            "field": "Biomembrane/Toxicology/\nPhytotheraphy"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "position": "Senior Lecturer",
+            "name": "Dr. Okunowo W.O",
+            "field": "Microbial/Plant Biotechnology."
+        },
+        {
+            "img": "img/team/01.jpg",
+            "position": "Senior Lecturer",
+            "name": "Dr. Imaga N.O.A",
+            "field": "Biochemical Pharmacology/Antisickling Phytotheraphy."
+        },
+        {
+            "img": "img/team/02.jpg",
+            "position": "Senior Lecturer",
+            "name": "Dr. Igwe Ezikpe, M.N",
+            "field": "Molecular Biochemistry/Xenobiotics."
+        },
+        {
+            "img": "img/team/03.jpg",
+            "position": "Lecturer I",
+            "name": "Dr. Bolawa O.E",
+            "field": "Lecturer I"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "position": "Lecturer II",
+            "name": "Dr. Babalola O.M",
+            "field": "Biotechnology and Microbial Genomics."
+        },
+        {
+            "img": "img/team/01.jpg",
+            "position": "Lecturer II",
+            "name": "Dr. Oyedeji T.A",
+            "field": "Membane Biochemistry."
+        },
+        {
+            "img": "img/team/02.jpg",
+            "position": "Professor",
+            "name": "Prof. Osuntoki A.A",
+            "field": "Molecular Biology/Biotechnology."
+        },
+        {
+            "img": "img/team/03.jpg",
+            "position": "Lecturer I",
+            "name": "Dr. Olasore H.S.A",
+            "field": "Molecular Biology and Neuroendocrinology."
+        },
+        {
+            "img": "img/team/04.jpg",
+            "position": "Lecturer I",
+            "name": "Dr. Lawal R.A",
+            "field": "Medicinal Chemistry/Pharmacology and Metabolism."
+        },
+        {
+            "img": "img/team/04.jpg",
+            "position": "Lecturer II",
+            "name": "Dr. James A.B",
+            "field": "Lecturer II"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [
+        {
+            "icon": "fa fa-comments-o",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}

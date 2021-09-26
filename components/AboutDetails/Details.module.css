@@ -1,0 +1,49 @@
+.dtlHead {
+  margin-top: 1em;
+  margin-left: 2em;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 31.5px;
+}
+.dtlHead::after {
+  content: "";
+  display: block;
+  background: #000;
+  width: 10%;
+  height: 2px;
+  margin-top: 5px;
+}
+.dtlCnt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 4rem;
+}
+.dtlCnt .dtlImg:nth-child(1) {
+  margin-bottom: 20px;
+}
+.dtlCnt .dtlTxt {
+  width: 60%;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+}
+@media screen and (max-width: 850px) {
+  .dtlCnt {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 4rem;
+    flex-wrap: wrap;
+  }
+  .dtlCnt .dtlTxt {
+    width: 90%;
+  }
+  .dtlCnt .dtlImg {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+}

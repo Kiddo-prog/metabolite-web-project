@@ -1,0 +1,29 @@
+/* Teacher Banner */
+.bannerTch {
+  margin-top: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../public/assets/img4.jpg");
+  padding: 10em 5rem;
+  background-position: center;
+  background-size: cover;
+}
+.bannerTch .bannerTCnt {
+  margin: auto;
+  width: 50%;
+}
+.bannerTch .bannerTCnt .bannerTHead {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.3;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bannerTch .bannerTCnt .bannerTP {
+  text-align: center;
+  color: #fff;
+  font-size: 21.5px;
+  line-height: 1.3;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}

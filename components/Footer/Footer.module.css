@@ -1,0 +1,20 @@
+.footerCnt {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)),
+    url("../../public/assets/bg4.jpg");
+  padding: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerCnt .footerP {
+  font-size: 19.5px;
+  color: #fff;
+}
+@media screen and (max-width: 800px) {
+  .footerCnt {
+    padding: 3em;
+  }
+  .footerCnt .footerP {
+    font-size: 15px;
+  }
+}
