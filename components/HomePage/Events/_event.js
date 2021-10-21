@@ -23,9 +23,8 @@ function Blogs({ data }) {
           </p>
         </div>
         <div className={s.blogPt}>
-          <div data-aos="fade-up">
             {data.map((d, i) => (
-              <div key={`${d.title}-${i}`} className={s.blogBg}>
+              <div data-aos="fade-up" key={`${d.title}-${i}`} className={s.blogBg}>
                 <h3 className={s.blogHt}>{d.title}</h3>
                 <p className={s.blogPnt}>{d.details}</p>
                 <Link href="/blog">
@@ -33,7 +32,6 @@ function Blogs({ data }) {
                 </Link>
               </div>
             ))}
-          </div>
         </div>
 
         <div data-aos="fade-right">
