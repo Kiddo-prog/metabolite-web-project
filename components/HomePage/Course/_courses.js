@@ -20,9 +20,8 @@ function Course({ data }) {
       </div>
 
       <div className={s.crsScnt}>
-        <div data-aos="fade-up">
           {data.map((d, i) => (
-            <div key={`${d.name}-${i}`} className={s.crsCnt}>
+            <div data-aos="fade-up" key={`${d.name}-${i}`} className={s.crsCnt}>
               <Link href="/courses">
                 <a>
                   <h2 className={s.crsName}>{d.name}</h2>
@@ -31,7 +30,6 @@ function Course({ data }) {
               </Link>
             </div>
           ))}
-        </div>
       </div>
       <div>
         <div data-aos="fade-right">
