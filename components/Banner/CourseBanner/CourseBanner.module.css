@@ -1,5 +1,5 @@
 /* Teacher Banner */
-.bannerTch {
+.bannerCuC {
   margin-top: 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../../../public/assets/img4.jpg");
@@ -7,11 +7,11 @@
   background-position: center;
   background-size: cover;
 }
-.bannerTch .bannerTCnt {
+.bannerCuC .bannerCCnt {
   margin: auto;
   width: 50%;
 }
-.bannerTch .bannerTCnt .bannerTHead {
+.bannerCuC .bannerCCnt .bannerCHead {
   text-align: center;
   color: #fff;
   font-size: 30px;
@@ -19,19 +19,8 @@
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
 }
-.bannerTch .bannerTCnt .bannerTP {
-  text-align: center;
-  color: #fff;
-  font-size: 21.5px;
-  line-height: 1.3;
-  font-weight: 300;
-  font-family: Arial, Helvetica, sans-serif;
-}
 @media screen and (max-width: 650px) {
-  .bannerTch .bannerTCnt .bannerTHead {
+  .bannerCuC .bannerCCnt .bannerCHead {
     font-size: 23px;
-  }
-  .bannerTch .bannerTCnt .bannerTP {
-    font-size: 15px;
   }
 }

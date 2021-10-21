@@ -1,7 +1,6 @@
 .TCnt {
   display: grid;
   grid-template-columns: auto auto auto;
-  align-items: center;
   text-align: center;
   margin: 5em 6em;
 }
@@ -28,4 +27,21 @@
   font-family: sans-serif;
   line-height: 1.8;
   word-spacing: 1px;
+}
+
+@media screen and (max-width: 850px) {
+  .TCnt {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    margin: 5em 6em;
+  }
+}
+@media screen and (max-width: 650px) {
+  .TCnt {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    margin: 5em 6em;
+  }
 }

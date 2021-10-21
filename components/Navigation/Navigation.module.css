@@ -44,8 +44,24 @@
   display: block;
   margin: 0.2em auto;
 }
+/* MenuBar */
+.MenuBar {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 781px) {
+  .navBar {
+    display: none;
+  }
+  .navBar .logo {
+    font-size: 16px;
+  }
   .navBar .navLink {
     display: none;
+  }
+  .MenuBar {
+    display: block;
   }
 }

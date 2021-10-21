@@ -1,0 +1,75 @@
+/*********************** Quotes **********************/
+.quoteSCnt {
+  padding: 4em;
+  margin: 3em 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../public/assets/bg7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.quoteSCnt .quoteHeading {
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.quoteSCnt .quoteHeading::before {
+  content: "";
+  background: #fff;
+  display: inline-block;
+  height: 1px;
+  width: 18px;
+  margin: 5px 10px;
+}
+.quoteSCnt .quoteHeading::after {
+  content: "";
+  background: #fff;
+  display: inline-block;
+  height: 1px;
+  width: 18px;
+  margin: 5px 10px;
+}
+.quoteSCnt .quoteCnt {
+  margin-top: 5em;
+}
+.quoteSCnt .quoteNm {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.quoteSCnt .quoteP {
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+@media screen and (max-width: 670px) {
+  .quoteSCnt {
+    margin: 0;
+    padding: 1em;
+  }
+  .quoteSCnt .quoteHeading {
+    font-size: 20px;
+  }
+  .quoteSCnt .quoteNm {
+    font-size: 13px;
+  }
+  .quoteSCnt .quoteP {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quoteSCnt .quoteHeading {
+    font-size: 12px;
+  }
+  .quoteSCnt .quoteHeading::before,
+  .quoteSCnt .quoteHeading::after {
+    background: none;
+  }
+}

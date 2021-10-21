@@ -1,0 +1,28 @@
+.ImageContainer {
+  width: 200px;
+  height: 200px;
+  background: #c1c1c1;
+}
+
+.AboutContainer {
+  width: 400px;
+  height: 200px;
+  background: #c1c1c1;
+}
+.AboutText {
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #c1c1c1;
+  text-align: center;
+}
+.MoreCategory {
+  background: #c1c1c1;
+  width: 234px;
+  height: 200px;
+}
+.CourseLoader {
+  background: #c1c1c1;
+  max-width: 340px;
+  max-height: 180px;
+  margin-left: 80px;
+}

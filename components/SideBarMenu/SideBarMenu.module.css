@@ -1,0 +1,23 @@
+.Sidebar_Container {
+  display: none;
+}
+.Navbar_Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+.Sidebar_Container .Sidebar_Logo {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.Sidebar_Container .Sidebar_Menu {
+  font-size: 25px;
+  cursor: pointer;
+}
+@media screen and (max-width: 781px) {
+  .Sidebar_Container {
+    display: block;
+  }
+}

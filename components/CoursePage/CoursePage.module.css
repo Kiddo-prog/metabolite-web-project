@@ -1,0 +1,60 @@
+.CourseSCnt {
+  margin: 5em auto;
+}
+.CoursePnt {
+  margin: 5em auto;
+  text-align: center;
+}
+.CoursePnt > h2 {
+  font-size: 28px;
+}
+.CoursePnt > p {
+  font-size: 16.5px;
+  color: #a2a2a2;
+}
+.CourseHeadTwo {
+  margin: 1em 2em;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+.CourseCnt {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  margin: 0 5em;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.CourseCnt .CourseFnt {
+  background: #e1e1e1;
+}
+.CourseCnt .CourseFnt > h3 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.CourseCnt .CourseFnt > h4 {
+  font-size: 16px;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.CourseCnt .CourseFnt > p {
+  font-size: 17.5px;
+  font-size: 400;
+}
+@media screen and (max-width: 900px) {
+  .CourseCnt {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 651px) {
+  .CourseCnt {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

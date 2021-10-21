@@ -1,0 +1,128 @@
+/******************* Courses ********************/
+.crsB {
+  margin-top: 2rem;
+}
+.crsB .crsScnt {
+  /* display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+   */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 2em;
+  margin: 3em 2em;
+}
+.crsB .crsCnt {
+  display: block;
+  margin-bottom: 1em;
+  background: #ffffff;
+  text-align: center;
+  width: auto;
+  padding: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #000000;
+}
+.crsB .crsCnt:hover {
+  box-shadow: 1px 4px 8px #000;
+  transition: all 0.5s ease;
+}
+.crsB .crsheading {
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  width: 70%;
+  margin: 1.5rem auto 0.5rem auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.crsB .crspgh {
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+.crsScnt .crsCnt .crsName {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+/* .crsScnt .crsCnt .crsText {
+  width: 90%;
+} */
+.crsScnt .crsCnt .crsRead {
+  font-weight: 500;
+  color: blue;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.crsMore {
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem;
+  margin: 3.5em auto 2em auto;
+  width: 25%;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 50, 0.9);
+  color: rgba(0, 0, 50, 0.9);
+  text-transform: capitalize;
+  transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+}
+.crsMore:hover {
+  background: rgba(0, 0, 50, 0.9);
+  box-shadow: 0px 2px 8px 0px #000;
+  color: #fff;
+  border: 2px solid rgba(0, 0, 50, 0.9);
+}
+@media screen and (max-width: 700px) {
+  .crsB .crsScnt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .crsB .crsheading {
+    font-size: 23px;
+  }
+  .crsB .crspgh {
+    font-size: 13px;
+  }
+  .crsScnt .crsCnt .crsName {
+    font-size: 15px;
+  }
+  .crsScnt .crsCnt .crsText {
+    font-size: 14px;
+  }
+  .crsMore {
+    width: 70%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 960px) {
+  .crsB .crsScnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .crsB .crsCnt {
+    margin: 0 auto 2em auto;
+  }
+  .crsB .crsheading,
+  .crsScnt .crsCnt .crsName {
+    font-size: 14px;
+  }
+  .crsB .crspgh {
+    font-size: 9px;
+  }
+  .crsScnt .crsCnt .crsText {
+    font-size: 10px;
+  }
+}

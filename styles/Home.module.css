@@ -1,0 +1,19 @@
+.Container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../public/assets/img3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.innerContainer {
+  background: #fff;
+  margin: 0 2em;
+}
+@media screen and (max-width: 670px) {
+  .Container {
+    background: none;
+  }
+  .innerContainer {
+    margin: 0;
+  }
+}

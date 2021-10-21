@@ -1,0 +1,34 @@
+.Nav_Container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 1);
+  transition: 0.5s ease;
+  z-index: 999;
+}
+.Close_Btn {
+  display: none;
+  color: #ffffff;
+  font-size: 35px;
+  position: relative;
+  font-weight: 800;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+.Nav_Container .Nav_Bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5em;
+  margin: auto;
+}
+.Nav_Container .Nav_list {
+  display: inline-block;
+  color: #ffffff;
+  margin-bottom: 1em;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

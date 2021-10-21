@@ -3,6 +3,10 @@ import s from "./Navigation.module.css";
 import Link from "next/link";
 
 function Navigation() {
+  const openMenu = (event) => {
+    event.preventDefault();
+    console.log("menu opened");
+  };
   return (
     <div className={s.navBar}>
       <div className={s.logo}>
@@ -24,13 +28,11 @@ function Navigation() {
         <Link href="/about">
           <a className={s.link}>about</a>
         </Link>
-        <Link href="/blog">
-          <a className={s.link}>event</a>
-        </Link>
         <Link href="/contact">
           <a className={s.link}>contact</a>
         </Link>
       </div>
+      <div className={s.MenuBar} onClick={openMenu}></div>
     </div>
   );
 }
