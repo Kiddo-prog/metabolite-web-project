@@ -1,12 +1,11 @@
 /*********************** Quotes **********************/
 .quoteSCnt {
-  padding: 4em;
-  margin: 3em 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../../public/assets/bg7.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../../../public/assets/img1.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  padding: 8em 2em;
+  margin: 4em 0 6em 0;
 }
 .quoteSCnt .quoteHeading {
   text-align: center;
@@ -58,10 +57,10 @@
     font-size: 20px;
   }
   .quoteSCnt .quoteNm {
-    font-size: 13px;
+    font-size: 15px;
   }
   .quoteSCnt .quoteP {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -71,5 +70,11 @@
   .quoteSCnt .quoteHeading::before,
   .quoteSCnt .quoteHeading::after {
     background: none;
+  }
+  .quoteSCnt .quoteNm {
+    font-size: 13px;
+  }
+  .quoteSCnt .quoteP {
+    font-size: 12px;
   }
 }

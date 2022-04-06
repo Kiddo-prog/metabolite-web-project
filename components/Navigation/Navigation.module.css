@@ -28,21 +28,18 @@
   border: none;
   outline: none;
 }
-.navBar .navLink .link:hover::after {
+/* .navBar .navLink .link:hover::after {
   content: "";
   background: rgba(0, 0, 0, 0.8);
   width: 35px;
   height: 1.67px;
   display: block;
   margin: 0.2em auto;
-}
-.navBar .navLink .active::after {
-  content: "";
+} */
+.navBar .navLink .active {
   background: rgba(0, 0, 0, 0.8);
-  width: 35px;
-  height: 1.67px;
-  display: block;
-  margin: 0.2em auto;
+  color: #fff;
+  padding: 0.8em;
 }
 /* MenuBar */
 .MenuBar {

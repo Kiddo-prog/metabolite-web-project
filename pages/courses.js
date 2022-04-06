@@ -1,20 +1,21 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 
 import Navigation from "../components/Navigation/Navigation";
+import SideBarMenu from "../components/SideBarMenu/SideBarMenu";
 import CourseBanner from "../components/Banner/CourseBanner/CourseBanner";
 import CoursePage from "../components/CoursePage/CoursePage";
+import Scroll from "../components/ScrollToTop/Scroll";
 import Footer from "../components/Footer/Footer";
-import SideBarMenu from "../components/SideBarMenu/SideBarMenu";
+
 import data from "../data/data.json";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-
-export default function Courses() {
+function Courses() {
   useEffect(() => {
-    AOS.init()
-  }, [])
+    AOS.init();
+  }, []);
   return (
     <div>
       <Head>
@@ -24,7 +25,10 @@ export default function Courses() {
       <Navigation />
       <CourseBanner />
       <CoursePage course={data.Comp_Courses} elective={data.Elect_Courses} />
+      <Scroll />
       <Footer />
     </div>
   );
 }
+
+export default Courses;

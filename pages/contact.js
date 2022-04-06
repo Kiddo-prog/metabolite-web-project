@@ -19,14 +19,3 @@ export default function Contact() {
     </div>
   );
 }
-
-// export async function getStaticProps() {
-//   const response = fetch("/api/hello");
-//   const data = await JSON.stringify(response);
-//   console.log(data.name);
-//   return {
-//     props: {
-//       data,
-//     },
-//   };
-// }

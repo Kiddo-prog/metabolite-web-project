@@ -1,7 +1,7 @@
 /* Teacher Banner */
 .bannerTch {
   margin-top: 2rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(124, 90, 90, 0.7), rgba(0, 0, 0, 0.3)),
     url("../../../public/assets/img4.jpg");
   padding: 10em 5rem;
   background-position: center;

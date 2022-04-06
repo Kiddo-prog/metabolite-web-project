@@ -25,12 +25,15 @@ function Navigation() {
         <Link href="/teachers">
           <a className={s.link}>teachers</a>
         </Link>
+        <Link href="/blog">
+          <a className={s.link}>blog</a>
+        </Link>
         <Link href="/about">
           <a className={s.link}>about</a>
         </Link>
-        <Link href="/contact">
+        {/* <Link href="/contact">
           <a className={s.link}>contact</a>
-        </Link>
+        </Link> */}
       </div>
       <div className={s.MenuBar} onClick={openMenu}></div>
     </div>

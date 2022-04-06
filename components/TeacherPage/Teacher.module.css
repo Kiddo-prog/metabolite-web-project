@@ -34,7 +34,7 @@
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
-    margin: 5em 6em;
+    margin: 5em 2em;
   }
 }
 @media screen and (max-width: 650px) {
@@ -42,6 +42,7 @@
     display: grid;
     grid-template-columns: auto;
     text-align: center;
-    margin: 5em 6em;
+    margin: 5em 2em;
+    text-align: center;
   }
 }

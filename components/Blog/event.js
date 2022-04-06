@@ -1,12 +1,26 @@
 import React from "react";
-import Head from "next/head";
+import Card from "../Card/Card";
+import styles from "./Event.module.css";
 
-function Event() {
+export default function Event({ articles, children }) {
   return (
-    <div>
-      <p>Events</p>
+    <div style={{ flex: 1 }}>
+      {children}
+      {articles.length < 1 ? (
+        <ErrorPage />
+      ) : (
+        <div className={styles.eventContainer}>
+          {articles.map((article) => (
+            <div key={article.id}>
+              <Card article={article} />
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
 
-export default Event;
+export const ErrorPage = () => {
+  return <h1 style={{ textAlign: "center" }}>Oops! No Post for Now</h1>;
+};

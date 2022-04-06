@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .footerCnt .footerP {
   font-size: 19.5px;
@@ -13,6 +14,7 @@
 @media screen and (max-width: 800px) {
   .footerCnt {
     padding: 3em;
+    text-align: center;
   }
   .footerCnt .footerP {
     font-size: 15px;

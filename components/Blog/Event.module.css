@@ -1,0 +1,13 @@
+.eventContainer{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-column-gap: 2%;
+     margin: 0 3em;
+}
+
+@media screen and (max-width: 800px) {
+     .eventContainer{
+          display: grid;
+          grid-template-columns: auto auto;
+     }
+}

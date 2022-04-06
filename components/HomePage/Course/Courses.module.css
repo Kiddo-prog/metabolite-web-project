@@ -1,28 +1,23 @@
 /******************* Courses ********************/
 .crsB {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 .crsB .crsScnt {
-  /* display: flex;
-  flex: 1;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-   */
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 2em;
-  margin: 3em 2em;
+  grid-template-columns: 35% 35% 30%;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  margin: 0 5em;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .crsB .crsCnt {
   display: block;
   margin-bottom: 1em;
   background: #ffffff;
-  text-align: center;
   width: auto;
+  text-align: center;
   padding: 1em;
-  margin-right: auto;
-  margin-left: auto;
   border: 1px solid #000000;
 }
 .crsB .crsCnt:hover {
@@ -39,6 +34,7 @@
   letter-spacing: 1px;
 }
 .crsB .crspgh {
+  margin-bottom: 3rem;
   text-align: center;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
@@ -51,9 +47,6 @@
   letter-spacing: 1px;
   font-size: 16px;
 }
-/* .crsScnt .crsCnt .crsText {
-  width: 90%;
-} */
 .crsScnt .crsCnt .crsRead {
   font-weight: 500;
   color: blue;
@@ -81,20 +74,21 @@
 }
 @media screen and (max-width: 700px) {
   .crsB .crsScnt {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
     margin: auto;
   }
   .crsB .crsheading {
-    font-size: 23px;
+    font-size: 26px;
   }
   .crsB .crspgh {
-    font-size: 13px;
+    font-size: 15px;
   }
   .crsScnt .crsCnt .crsName {
     font-size: 15px;
+    font-weight: bold;
   }
   .crsScnt .crsCnt .crsText {
     font-size: 14px;
@@ -104,23 +98,31 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 800px) {
   .crsB .crsScnt {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0 25px;
+  }
+  .crsScnt .crsCnt .crsName {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 450px) {
+  .crsB .crsScnt {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0 25px;
+  }
   .crsB .crsCnt {
     margin: 0 auto 2em auto;
   }
   .crsB .crsheading,
   .crsScnt .crsCnt .crsName {
-    font-size: 14px;
+    font-size: 16px;
   }
   .crsB .crspgh {
-    font-size: 9px;
+    font-size: 13px;
   }
   .crsScnt .crsCnt .crsText {
     font-size: 10px;

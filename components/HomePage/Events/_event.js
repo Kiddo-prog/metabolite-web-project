@@ -23,17 +23,15 @@ function Blogs({ data }) {
           </p>
         </div>
         <div className={s.blogPt}>
-          <div data-aos="fade-up">
-            {data.map((d, i) => (
-              <div key={`${d.title}-${i}`} className={s.blogBg}>
-                <h3 className={s.blogHt}>{d.title}</h3>
-                <p className={s.blogPnt}>{d.details}</p>
-                <Link href="/blog">
-                  <a className={s.blogLnk}>Read More</a>
-                </Link>
-              </div>
-            ))}
-          </div>
+          {data.map((d, i) => (
+            <div key={`${d.title}-${i}`} className={s.blogBg}>
+              <h1 className={s.blogHt}>{d.title}</h1>
+              <p className={s.blogPnt}>{d.details}</p>
+              <Link href="/blog">
+                <a className={s.blogLnk}>Read More</a>
+              </Link>
+            </div>
+          ))}
         </div>
 
         <div data-aos="fade-right">

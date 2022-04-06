@@ -6,7 +6,7 @@ function Quotes(props) {
   return (
     <div>
       <div className={styles.quoteSCnt}>
-        <h2 className={styles.quoteHeading}>inspirational quotes</h2>
+        <h1 className={styles.quoteHeading}>inspirational quotes</h1>
         <div className={styles.quoteCnt}>
           <p className={styles.quoteNm}>{quotes.data[0].name}</p>
           <p className={styles.quoteP}>

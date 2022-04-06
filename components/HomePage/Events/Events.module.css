@@ -1,7 +1,7 @@
 /***************** Blogs and Events ***************/
 
 .blogCnt {
-  margin: 2em 0;
+  margin: 4em 0;
   padding: 0 auto;
 }
 .blogCnt .blogHeading {
@@ -25,11 +25,14 @@
 }
 .blogCnt .blogPt .blogBg {
   margin-right: 2em;
+  margin-bottom: 2em;
 }
 .blogCnt .blogPt .blogBg .blogHt {
-  font-weight: 300;
+  font-weight: 700;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   letter-spacing: 1px;
+  line-height: 2;
+  font-size: 20px;
 }
 .blogCnt .blogPt .blogBg .blogPnt {
   line-height: 2;
@@ -71,7 +74,7 @@
   .blogCnt .blogPt {
     display: flex;
     justify-content: center;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
   }
   .blogCnt .blogPt .blogBg .blogHt {
     font-size: 23px;
@@ -81,21 +84,26 @@
   }
 }
 @media screen and (max-width: 670px) {
+  .blogCnt .blogPt {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
   .blogCnt .blogHeading {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 800;
   }
   .blogCnt .blogP {
-    font-size: 13px;
+    font-size: 16px;
   }
   .blogCnt .blogPt .blogBg .blogHt {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
   }
   .blogCnt .blogPt .blogBg .blogPnt {
-    font-size: 13px;
+    font-size: 16px;
   }
   .blogCnt .blogPt .blogBg .blogLnk {
-    font-size: 12px;
+    font-size: 14px;
   }
 }

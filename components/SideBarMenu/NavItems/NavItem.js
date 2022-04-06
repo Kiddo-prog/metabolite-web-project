@@ -22,12 +22,15 @@ function NavItem() {
         <Link href="/teachers">
           <a className={styles.Nav_list}>teachers</a>
         </Link>
+        <Link href="/blog">
+          <a className={styles.Nav_list}>blog</a>
+        </Link>
         <Link href="/about">
           <a className={styles.Nav_list}>about</a>
         </Link>
-        <Link href="/contact">
+        {/* <Link href="/contact">
           <a className={styles.Nav_list}>contact</a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
