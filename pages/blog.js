@@ -8,10 +8,8 @@ import SideBarMenu from "../components/SideBarMenu/SideBarMenu";
 export default function Blog({ articles }) {
   return (
     <div>
-      {/* <Event articles={articles}>
-        <Navigation />
-        <SideBarMenu />
-      </Event> */}
+      <Navigation />
+      <SideBarMenu />
       <p>Blog page coming soon...</p>
     </div>
   );
